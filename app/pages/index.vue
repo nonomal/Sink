@@ -1,9 +1,14 @@
 <template>
-  <main class="flex flex-col justify-center">
-    <HomeTwitter />
+  <div
+    class="
+      flex flex-col justify-center overflow-x-clip bg-background text-foreground
+    "
+  >
     <HomeHero />
-    <HomeFeatures />
     <HomeLogos />
+    <HomeFeatures />
+    <HomeStats />
+    <HomeTestimonials />
     <HomeCta />
-  </main>
+  </div>
 </template>
